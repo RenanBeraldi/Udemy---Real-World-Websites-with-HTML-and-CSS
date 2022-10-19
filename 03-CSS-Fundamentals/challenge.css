@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+article{
+    border: 4px solid #000;
+    width: 825px;
+    margin: 60px auto;
+    position: relative;
+}
+
+article::before{
+    content: 'SALE';
+    position: absolute;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 5px 15px;
+    font-weight: bold;
+    top: -15px;
+    left: -40px;
+    letter-spacing: 2px;
+}
+
+h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f7f7f7;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+img{
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 10px;
+}
+.price{
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.shipping{
+    color: #777;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+a:link, a:visited{
+    color: #000;
+}
+
+a:hover, a:active{
+    text-decoration: none;
+}
+
+
+.colors div{
+    display: inline-block;
+    margin: 25px 7px;
+    margin-bottom: 0;
+}
+
+.colors div:nth-child(1){
+    background-color: #000;
+    height: 20px;
+    width: 20px;
+    margin-left: 0;
+}
+.colors div:nth-child(2){
+    background-color: #4169e1;
+    height: 20px;
+    width: 20px;
+}
+.colors div:nth-child(3){
+    background-color: #ff0000;
+    height: 20px;
+    width: 20px;
+}
+.colors div:nth-child(4){
+    background-color: #dac720;
+    height: 20px;
+    width: 20px;
+}
+.colors div:nth-child(5){
+    background-color: #32cd32;
+    height: 20px;
+    width: 20px;    
+}
+.colors div:nth-child(6){
+    background-color: saddlebrown;
+    height: 20px;
+    width: 20px;
+    margin-right: 0;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+ul{
+    list-style: square;
+}
+
+li{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 4px solid #000;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+    border-top: 4px solid #000;
+}
