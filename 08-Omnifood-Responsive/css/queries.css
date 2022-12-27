@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+
+/* BELOW 1344 PIXELS (Smaller Desktops)*/
+
+@media (max-width: 84em){
+    .hero{
+        max-width: 120rem;
+    }
+
+    .heading-primary{
+        font-size: 4.4rem;
+    }
+
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+/* BELOW 1200 PIXELS (Landscape  Tablets)*/
+
+@media (max-width: 75em){
+    html{
+        font-size: 56.25%;
+    }
+
+    .grid{
+        column-gap: 4.8rem;
+        row-gap: 8rem;
+    }
+
+    .secondary-heading{
+        font-size: 3.6rem;
+    }
+
+    .tertiary-heading{
+        font-size: 2.4rem;
+    }
+
+    .header{
+        padding: 0 3.2rem;
+    }
+
+    .main-nav-list{
+        gap: 3.2rem
+    }
+
+    .hero{
+        gap: 4.8rem;
+    }
+
+    .testimonials-container{
+        padding: 9.6rem 3.2rem;
+    }
+}
+
+
+
+/* BELOW 976 PIXELS (Tablets)*/
+
+@media (max-width: 61em){
+    html{
+        font-size: 50%;
+    }
+
+    /* HERO SECTION */
+
+    .hero{
+        grid-template-columns: 1fr;
+        padding: 0 8rem;
+        gap: 6.4rem;
+    }
+
+    .hero-text-box,
+    .hero-img-box{
+        text-align: center;
+    }
+
+    .delivered-meals{
+        justify-content: center;
+        margin-top: 3.2rem;
+    }
+
+    .hero-img{
+        width: 60%;
+    }
+
+    /* LOGO SECTIONS */
+
+    .logos img{
+        height: 2.4rem;
+    }
+
+    /* HOW IT WORKS SECTION */
+
+    .step-number{
+        font-size: 7.4rem;
+    }
+
+    /* SAMPLE MEALS SECTION */
+
+    .meal-content{
+        padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    }
+
+    /* TESTIMONIALS SECTION */
+
+    .section-testimonials{
+        grid-template-columns: 1fr;
+    }
+
+    .gallery{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    /* CTA SECTION */
+    
+    .cta{
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .cta-form{
+        grid-template-columns: 1fr;
+    }
+
+    .btn--form{
+        margin-top: 1.2rem;
+    }
+}
+
+/* 
+
+- Font Sizes (px) 
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+
+- Spacing System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
